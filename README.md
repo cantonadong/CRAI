@@ -63,19 +63,6 @@ Remove-Item refs_git.tar
 
 HF 上的 `refs/` 是当时的工作区快照（含本地改动），`.git` 历史在 `refs_git.tar`。也可从原仓库 clone 并切到对应 commit：
 
-| 目录 | 原仓库 | commit |
-|---|---|---|
-| `refs/clash-royale-simulator` | https://github.com/Jason-XII/clash-royale-simulator | `82bcbf3` |
-| `refs/cr-memory-reader` | https://github.com/Jason-XII/cr-memory-reader | `9af94ca` |
-| `refs/daybreak-cr` | https://github.com/Jason-XII/daybreak-cr | `693057d` |
-| `refs/FirstLight_CR` | https://github.com/Jaasssoooonnnnn/FirstLight_CR | `4c82496` |
-| `refs/FirstLight_CR_yesdelay` | https://github.com/Jaasssoooonnnnn/FirstLight_CR | `d29716d` |
-| `refs/new2611/Clash-Royale-Battle-Engine` | https://github.com/Jason-XII/Clash-Royale-Battle-Engine | `693057d` |
-| `refs/new2611/Clashaiaa` | https://github.com/pphy96826-coder/Clashaiaa | `8ffb5d4` |
-| `refs/new2611/clashroyal-replay` | https://github.com/pphy96826-coder/clashroyal-replay | `5423c0d` |
-| `refs/new2611/FirstLight_CR_gitlab` | https://gitlab.com/firstlight3/FirstLight_CR | `71944e3` |
-| `refs/new2611/RoyaleHarness` | https://github.com/Isara-Mo/RoyaleHarness | `66776ec` |
-| `refs/new2611/clashroyal-replay-release` | 无 git，仅 HF 快照 | — |
 
 ## tools/ 官方来源
 
