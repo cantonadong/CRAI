@@ -50,9 +50,18 @@ tar -xf data\resim_headless\hog.tar -C data\resim_headless
 Remove-Item data\resim_headless\hog.tar
 ```
 
+HF 默认不收 `.git` 目录，`refs/` 下各参考项目的 git 历史打包在根目录 `refs_git.tar`，解包到项目根即可恢复：
+
+```powershell
+C:\Windows\System32\tar.exe -xf refs_git.tar
+Remove-Item refs_git.tar
+```
+
+（用 Windows 自带的 `tar.exe`；Git Bash 的 GNU tar 会把 `C:` 误当远程主机。）
+
 ## refs/ 参考项目原始来源
 
-HF 上的 `refs/` 是当时的快照（不含 `.git`）。如需带历史的版本，从原仓库 clone 并切到对应 commit：
+HF 上的 `refs/` 是当时的工作区快照（含本地改动），`.git` 历史在 `refs_git.tar`。也可从原仓库 clone 并切到对应 commit：
 
 | 目录 | 原仓库 | commit |
 |---|---|---|
