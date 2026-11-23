@@ -1,0 +1,30 @@
+{
+ "0": {
+  "rside": "opponent",
+  "slots": [
+   "royal-hogs",
+   "earthquake",
+   "ice-spirit",
+   "archer-queen",
+   "cannon",
+   "skeletons",
+   "the-log",
+   "royal-delivery"
+  ],
+  "player_id": 71299567
+ },
+ "1": {
+  "rside": "team",
+  "slots": [
+   "ice-spirit",
+   "cannon",
+   "fireball",
+   "skeletons",
+   "musketeer",
+   "hog-rider",
+   "ice-golem",
+   "the-log"
+  ],
+  "player_id": 44679514
+ }
+}

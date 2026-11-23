@@ -1,0 +1,148 @@
+name	old	new	conf	method	source
+GoldenKnightHopOffset	0xf49d24	0x10a7230	1.000	func-entry	action_movement_runtime_layout.h
+WarpPositionCommitOffset	0xe82a34	0xfc019c	0.949	func-entry	action_movement_runtime_layout.h
+DashingAttackChainDataVtableOffset	0x188daf8		0.000	data-unreferenced	action_movement_runtime_layout.h
+DashingAttackChainRuntimeVtableOffset	0x189eca0		0.000	data-unreferenced	action_movement_runtime_layout.h
+WarpCharacterDataVtableOffset	0x1895120		0.000	data-unreferenced	action_movement_runtime_layout.h
+StateSetterOffset	0xf18654	0x1075d64	0.851	func-entry	character_state_runtime_layout.h
+CombatDamageOffset	0xf642c4	0x10c1e50	0.250	window(n=4,margin=0.02)	combat_event_telemetry.inc
+CombatHealOffset	0xf64d14	0x10c29a4	1.000	func-entry	combat_event_telemetry.inc
+CombatConsumeCardOffset	0xf38a68	0x10959ec	0.617	func-entry	combat_event_telemetry.inc
+CombatSpawnOffset	0xf25b8c	0x1083358	1.000	func-entry	combat_event_telemetry.inc
+CombatRemoveOffset	0xf25d90	0x108355c	1.000	func-entry	combat_event_telemetry.inc
+CombatDeflectOffset	0xf1629c	0x1071f14	0.997	func-entry	combat_event_telemetry.inc
+CombatImpactFunctionOffset	0xf29514	0x1086dc0	0.676	func-entry	combat_event_telemetry.inc
+CombatImpactBoundaryOffset	0xf2981c	0x10870fc	0.676	insn-equal	combat_event_telemetry.inc
+CombatProjectileTerminalOffset	0xf28470	0x1085d24	1.000	func-entry	combat_event_telemetry.inc
+CombatExpireSourceLostCallOffset	0xf2a11c	0x1086dc0	0.125	window(n=3,margin=0.00)	combat_event_telemetry.inc
+CombatExpireSourceLostReturnOffset	0xf2a120	0x1087950	1.000	window(n=4,margin=0.88)	combat_event_telemetry.inc
+CombatExpireCancelCallOffset	0xf2a148	0x10881a4	0.126	window(n=3,margin=0.03)	combat_event_telemetry.inc
+CombatExpireCancelReturnOffset	0xf2a14c	0x10881a4	0.126	window(n=3,margin=0.03)	combat_event_telemetry.inc
+CombatHealEffectReturnOffset	0xf20df0	0x107d9b8	0.562	window(n=3,margin=0.45)	combat_event_telemetry.inc
+CombatHealProjectileReturnOffset	0xf2b374		0.783	insn-delete	combat_event_telemetry.inc
+CombatHealAreaReturnOffset	0xf319a4		0.642	insn-replace	combat_event_telemetry.inc
+ReplayJsonSetterOffset	0xc8de8c	0xda1f90	0.707	func-entry	cr_replay_probe.cpp
+ReplayManagerGetterOffset	0xc8c5b8	0xda0658	1.000	func-entry	cr_replay_probe.cpp
+LibgStringFromUtf8Offset	0x138a800	0x153de30	1.000	func-entry	cr_replay_probe.cpp
+NativeReplayRunnerOffset	0xc87ecc	0xd9ae04	0.547	window(n=11,margin=0.25)	cr_replay_probe.cpp
+ReplayBattleControllerLifecycleOffset	0xc87620	0xd9ae04	0.328	window(n=11,margin=0.02)	cr_replay_probe.cpp
+ReplayBattleControllerFullUpdateOffset	0xc88bbc	0xd9bba0	0.500	window(n=5,margin=0.37)	cr_replay_probe.cpp
+ReplayBattleControllerClockOffset	0xc890bc	0xd9c278	0.987	func-entry	cr_replay_probe.cpp
+ReplayBattleControllerAlternateUpdateOffset	0xc899e0	0xd9cc24	1.000	window(n=3,margin=0.83)	cr_replay_probe.cpp
+ReplayClockGlobalPauseGuardOffset	0xcb6694	0xdcda40	1.000	func-entry	cr_replay_probe.cpp
+GameAppGetterOffset	0x755818		0.000	no-neighbors	cr_replay_probe.cpp
+GameAppPauseGuardOffset	0x75c628	0x7c99ac	1.000	func-entry	cr_replay_probe.cpp
+GameAppPendingEventSetterOffset	0x75a6dc	0x7c79d8	0.592	func-entry	cr_replay_probe.cpp
+GameStateLoadOffset	0x1061b1c	0x11d2dc4	0.891	window(n=3,margin=0.75)	cr_replay_probe.cpp
+GameStateStepOffset	0x10620a4	0x11d3174	0.692	func-entry	cr_replay_probe.cpp
+GameStateTickOffset	0x1062bc0	0x11d32f0	1.000	func-entry	cr_replay_probe.cpp
+GameStateContextAOffset	0x80031c	0x878c00	1.000	func-entry	cr_replay_probe.cpp
+GameStateContextBOffset	0xeaf1c8	0xff253c	1.000	func-entry	cr_replay_probe.cpp
+GameStateNewOffset	0x17e4b20		0.000	window-too-wide	cr_replay_probe.cpp
+GameStateDeleteOffset	0x17e4b50		0.000	window-too-wide	cr_replay_probe.cpp
+GameStateConstructorOffset	0x1060ba8	0x11d1e68	0.840	func-entry	cr_replay_probe.cpp
+GameStateSetupOffset	0x1060f84	0x11d225c	1.000	func-entry	cr_replay_probe.cpp
+GameStateDestroyOffset	0x10610b0	0x11d2388	0.905	func-entry	cr_replay_probe.cpp
+GameStateBaseDestroyOffset	0x988844	0x9fe0b0	1.000	func-entry	cr_replay_probe.cpp
+JsonParseOffset	0x121a648	0x139f838	1.000	func-entry	cr_replay_probe.cpp
+LogicCommandParseOffset	0xd2fe78	0xe553e4	0.522	window(n=4,margin=0.29)	cr_replay_probe.cpp
+LogicCommandAppendOffset	0xd2eef0	0xe5443c	1.000	func-entry	cr_replay_probe.cpp
+LogicCommandQueueConstructorOffset	0xd2eddc	0xe54328	1.000	func-entry	cr_replay_probe.cpp
+LogicCommandQueueDestroyOffset	0xd2ee40	0xe5438c	1.000	func-entry	cr_replay_probe.cpp
+StateSnapshotOffset	0xad9a50	0xbb3ac4	1.000	func-entry	cr_replay_probe.cpp
+StateSnapshotDeleteOffset	0x105e8bc	0x11ccee8	0.338	window(n=3,margin=0.02)	cr_replay_probe.cpp
+ByteStreamResetReadOffset	0x121220c	0x1397568	1.000	func-entry	cr_replay_probe.cpp
+ByteStreamFlipReadOffset	0x121221c	0x1397578	1.000	func-entry	cr_replay_probe.cpp
+ByteStreamResetChecksumOffset	0x12141bc	0x1399518	1.000	func-entry	cr_replay_probe.cpp
+GameStateDeserializeHeaderOffset	0x10634c0	0x11d45c8	1.000	func-entry	cr_replay_probe.cpp
+GameStateDeserializeBodyOffset	0x106379c	0x11d4b14	1.000	func-entry	cr_replay_probe.cpp
+CardSelectionBuildOffset	0xe2d1bc	0xf671a0	1.000	func-entry	cr_replay_probe.cpp
+JsonMemberFindOffset	0xd0e100	0xc40d68	1.000	func-entry	cr_replay_probe.cpp
+LogicDataByGlobalIdOffset	0xdd1340	0xefe42c	1.000	func-entry	cr_replay_probe.cpp
+LocationTileMapEnsureOffset	0x857608	0x8ae750	1.000	func-entry	cr_replay_probe.cpp
+LocationTileMapLookupOffset	0xdf8508	0xf2edec	1.000	func-entry	cr_replay_probe.cpp
+EglSwapBuffersGotOffset	0x18e9d88		0.000	data-unreferenced	cr_replay_probe.cpp
+TranslatedSha256InitializerCallOffset	0xc8ece0	0xda37a8	0.247	window(n=2,margin=0.19)	cr_replay_probe.cpp
+GameStateContextRootSlotOffset	0x19ad878	0x1b61d00	1.000	data-vote(10/10)	cr_replay_probe.cpp
+BuffAssetVtableOffset	0x1882500	0x1a349f0	1.000	data-vote(1/1)	cr_replay_probe.cpp
+BuffAssetClassNameGetterOffset	0xd961f4	0xebf54c	0.942	window(n=3,margin=0.83)	cr_replay_probe.cpp
+LogicDataTypeGetterOffset	0xdc2560	0xeeee10	1.000	func-entry	cr_replay_probe.cpp
+ProjectileVtableOffset	0x189cc28	0x1a50348	1.000	data-vote(1/1)	cr_replay_probe.cpp
+ProjectileKindGetterOffset	0xf27a58	0x1085314	0.969	window(n=3,margin=0.83)	cr_replay_probe.cpp
+CharacterVtableOffset	0x189c4e8	0x1a4fbb8	1.000	data-vote(2/2)	cr_replay_probe.cpp
+ChampionControllerVtableOffset	0x189e4e8	0x1a51c30	1.000	data-vote(1/1)	cr_replay_probe.cpp
+ChampionActionDataVtableOffset	0x188cb28		0.000	data-unreferenced	cr_replay_probe.cpp
+CharacterAbilityDataVtableOffset	0x18823f0		0.000	data-unreferenced	cr_replay_probe.cpp
+CaptureCharacterActionDataVtableOffset	0x188c848	0x1a3fab0	1.000	data-vote(1/1)	cr_replay_probe.cpp
+CaptureCharacterRuntimeVtableOffset	0x189e2d8	0x1a51a20	1.000	data-vote(1/1)	cr_replay_probe.cpp
+ThresholdRelocationActionDataVtableOffset	0x188ef18	0x1a41da0	1.000	data-vote(1/1)	cr_replay_probe.cpp
+ThresholdRelocationRuntimeVtableOffset	0x189f6f0		0.000	data-unreferenced	cr_replay_probe.cpp
+PeriodicAttackModifierActionDataVtableOffset	0x188eac8	0x1a41998	1.000	data-vote(1/1)	cr_replay_probe.cpp
+PeriodicAttackModifierRuntimeVtableOffset	0x189f3d8	0x1a52ca8	1.000	data-vote(3/3)	cr_replay_probe.cpp
+GameAppTouchOffset	0x13d0be0	0x156f790	1.000	func-entry	native_touch_interceptor.cpp
+AttackComponentVtableOffset	0x18a1dd0	0x1a558b0	1.000	data-vote(1/1)	phase_runtime_layout.h
+MovementComponentVtableOffset	0x18a1f38	0x1a55a18	1.000	data-vote(1/1)	phase_runtime_layout.h
+BuffComponentVtableOffset	0x18a1d58	0x1a55838	1.000	data-vote(1/1)	phase_runtime_layout.h
+AttackComponentTypeGetterOffset	0xf5c878	0x10ba274	0.188	window(n=5,margin=0.00)	phase_runtime_layout.h
+MovementComponentTypeGetterOffset	0xf6939c	0x10c70fc	0.293	window(n=4,margin=0.08)	phase_runtime_layout.h
+BuffComponentTypeGetterOffset	0xf59aac	0x10b79cc	0.494	window(n=2,margin=0.38)	phase_runtime_layout.h
+ActionDispatchOffset	0xf23110	0x10809c0	0.963	func-entry	phase_runtime_layout.h
+AttackExecuteOffset	0xf5f100	0x10bcddc	0.500	func-entry	phase_runtime_layout.h
+TargetSetOffset	0xf5c894	0x10ba8e0	0.989	func-entry	phase_runtime_layout.h
+BuffAddedOffset	0xf5a2d4	0x10b820c	1.000	func-entry	phase_runtime_layout.h
+MovementScaleOffset	0xf5b3c8	0x10b9300	1.000	func-entry	phase_runtime_layout.h
+AttackScaleOffset	0xf5b4ac	0x10b93e4	1.000	func-entry	phase_runtime_layout.h
+EffectiveMovementSpeedOffset	0xf1d004	0x10796f4	1.000	func-entry	phase_runtime_layout.h
+MovementDeltaOffset	0xf68808	0x10c6560	1.000	func-entry	phase_runtime_layout.h
+AttackStartReturnOffset	0xf61a7c	0x10bf698	0.670	insn-equal	phase_runtime_layout.h
+ClassicChargeActionReturnOffset	0xf68958	0x10c66b0	1.000	insn-equal	phase_runtime_layout.h
+PrimaryAttackReturnOffset	0xf61d10	0x10bf944	0.670	insn-equal	phase_runtime_layout.h
+AdditionalAttackReturnOffset	0xf61e34	0x10bfab4	0.536	insn-replace	phase_runtime_layout.h
+AttackScaleReturnOffset	0xf62030	0x10bfcec	0.857	insn-equal	phase_runtime_layout.h
+EffectiveSpeedEffectReturnOffset	0xf1d218	0x1079908	1.000	insn-equal	phase_runtime_layout.h
+MovementTickScaleReturnOffset	0xf66290	0x10c3fe8	1.000	insn-equal	phase_runtime_layout.h
+DeployScaleReturnOffset	0xf1abc0	0x1077548	0.820	insn-equal	phase_runtime_layout.h
+ResourceWholeDeltaOffset	0xf3ba4c	0x1098b8c	1.000	func-entry	remaining_runtime_layout.h
+ResourceFixedDeltaOffset	0xf3b3d4	0x1098510	1.000	func-entry	remaining_runtime_layout.h
+PeriodicResourceCallOffset	0xf1acd0	0x10775dc	0.820	insn-equal	remaining_runtime_layout.h
+PeriodicResourceReturnOffset	0xf1acd4	0x10775e0	0.820	insn-equal	remaining_runtime_layout.h
+DeathOwnerResourceCallOffset	0xf63714	0x10c1278	1.000	insn-equal	remaining_runtime_layout.h
+DeathOwnerResourceReturnOffset	0xf63718	0x10c127c	1.000	insn-equal	remaining_runtime_layout.h
+DeathOpponentResourceCallOffset	0xf63830	0x10c1394	1.000	insn-equal	remaining_runtime_layout.h
+DeathOpponentResourceReturnOffset	0xf63834	0x10c1398	1.000	insn-equal	remaining_runtime_layout.h
+AreaEffectObjectVtableOffset	0x189c2e8	0x1a4f9a0	1.000	data-vote(1/1)	remaining_runtime_layout.h
+AreaEffectObjectFactoryOffset	0xf2384c	0x1080fa4	1.000	func-entry	remaining_runtime_layout.h
+AreaEffectObjectTickOffset	0xf143a8	0x1070d18	0.484	window(n=13,margin=0.25)	remaining_runtime_layout.h
+CharacterSpawnHelperOffset	0xf19314	0x1076980	0.016	window(n=2,margin=0.02)	remaining_runtime_layout.h
+SpawnAttachHelperCallOffset	0xf18ff0	0x1076734	0.851	insn-equal	remaining_runtime_layout.h
+SpawnAttachHelperReturnOffset	0xf18ff4		0.851	insn-replace	remaining_runtime_layout.h
+AreaDamageEligibleOffset	0xf1cb90	0x1079120	0.797	window(n=6,margin=0.03)	remaining_runtime_layout.h
+AreaDamageEligibleBodyOffset	0xf1cba0	0x1079130	0.884	func-entry	remaining_runtime_layout.h
+TowerTargetSetOffset	0xf5c894	0x10ba8e0	0.989	func-entry	remaining_runtime_layout.h
+ActionSpawnToLocationExecuteOffset	0xe7b864	0xfb7e64	0.595	func-entry	remaining_runtime_layout.h
+ActionSpawnToLocationStaticVtableOffset	0x1894588	0x1a47298	1.000	data-vote(1/1)	remaining_runtime_layout.h
+ActionSpawnMode1ChildCreateOffset	0xf2ffb8	0x108d838	1.000	func-entry	remaining_runtime_layout.h
+ActionSpawnMode1ChildCreateReturnOffset	0xf24bb0	0x10817e4	0.094	window(n=3,margin=0.04)	remaining_runtime_layout.h
+PendingObjectAddOffset	0xf25928	0x10830f4	1.000	func-entry	remaining_runtime_layout.h
+ActionWaitUpdateOffset	0xf587c4	0x10b6110	0.889	func-entry	remaining_runtime_layout.h
+ActionWaitDispatchCallOffset	0xf5881c	0x10b6178	0.889	insn-equal	remaining_runtime_layout.h
+ActionWaitDispatchReturnOffset	0xf58820	0x10b617c	0.889	insn-equal	remaining_runtime_layout.h
+ActionWaitStaticVtableOffset	0x1894fb0		0.000	data-unreferenced	remaining_runtime_layout.h
+ActionWaitRuntimeVtableOffset	0x18a1a40		0.000	data-unreferenced	remaining_runtime_layout.h
+ChangeGameObjectDataVtableOffset	0x188cc98		0.000	data-unreferenced	remaining_runtime_layout.h
+ChangeGameObjectDataExecuteOffset	0xe58638	0xf93844	1.000	func-entry	remaining_runtime_layout.h
+ChangeMutationCallOffset	0xe58678	0xf93884	1.000	insn-equal	remaining_runtime_layout.h
+ExecuteOffset	0xf609dc	0x10be63c	1.000	func-entry	special_movement_runtime_layout.h
+ExecuteCallerReturnOffset	0xf61bf0	0x10bf7fc	0.670	insn-equal	special_movement_runtime_layout.h
+DaggerInitOffset	0xf43f10	0x10a1270	1.000	func-entry	tower_troop_runtime_layout.h
+DaggerTickOffset	0xf43f3c	0x10a129c	1.000	func-entry	tower_troop_runtime_layout.h
+DaggerRuntimeVtableOffset	0x189e0c8		0.000	data-unreferenced	tower_troop_runtime_layout.h
+DaggerStaticVtableOffset	0x188c3f8		0.000	data-unreferenced	tower_troop_runtime_layout.h
+ChefInitOffset	0xf47e08	0x10a5378	1.000	func-entry	tower_troop_runtime_layout.h
+ChefTickOffset	0xf47e3c	0x10a53ac	1.000	func-entry	tower_troop_runtime_layout.h
+ChefRuntimeVtableOffset	0x189e738	0x1a51ec0	1.000	data-vote(1/1)	tower_troop_runtime_layout.h
+ChefStaticVtableOffset	0x188cf78	0x1a40168	1.000	data-vote(1/1)	tower_troop_runtime_layout.h
+BuffApplyOffset	0xf5a2d4	0x10b820c	1.000	func-entry	visibility_runtime_layout.h
+BuffApplyOnlyCallOffset	0xf59ea8	0x10b7dcc	0.940	insn-equal	visibility_runtime_layout.h
+BuffRemoveOffset	0xf5a578	0x10b84b0	1.000	func-entry	visibility_runtime_layout.h
+BuffRemoveOnlyCallOffset	0xf59304	0x10b721c	1.000	insn-equal	visibility_runtime_layout.h

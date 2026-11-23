@@ -1,0 +1,8 @@
+目标
+1.先在null 皇室战争私服通过学习royalapi.com的官方对战记录（是双方玩家对战下牌记录），从而学习到不同卡组熟悉度，实现某些卡组达到名人堂水平（每月赛季达到紫水晶，天梯最高等级）
+2.后续考虑复用到皇室战争国际服正式环境
+
+可参考的项目和思路：
+1、https://github.com/Jason-XII/daybreak-cr
+2、https://github.com/Jason-XII/clash-royale-simulator
+3、https://github.com/Jason-XII/cr-memory-reader

@@ -1,0 +1,147 @@
+GoldenKnightHopOffset	0xf49d24	0x10a7230	1.000	mnhash
+WarpPositionCommitOffset	0xe82a34	0xfc019c	0.782	prop0
+DashingAttackChainDataVtableOffset	0x188daf8		0.000	not-func-entry
+DashingAttackChainRuntimeVtableOffset	0x189eca0		0.000	not-func-entry
+WarpCharacterDataVtableOffset	0x1895120		0.000	not-func-entry
+StateSetterOffset	0xf18654	0x1075d64	0.934	propb0
+CombatDamageOffset	0xf642c4		0.000	func-unmatched
+CombatHealOffset	0xf64d14	0x10c29a4	0.985	mnhash
+CombatConsumeCardOffset	0xf38a68	0x10959ec	0.928	prop0
+CombatSpawnOffset	0xf25b8c	0x1083358	1.000	mnhash
+CombatRemoveOffset	0xf25d90	0x108355c	0.989	mnhash
+CombatDeflectOffset	0xf1629c	0x1071f14	0.932	prop0
+CombatImpactFunctionOffset	0xf29514	0x1086dc0	0.901	propb0
+CombatImpactBoundaryOffset	0xf2981c		0.000	not-func-entry
+CombatProjectileTerminalOffset	0xf28470	0x1085d24	0.967	mnhash
+CombatExpireSourceLostCallOffset	0xf2a11c		0.000	not-func-entry
+CombatExpireSourceLostReturnOffset	0xf2a120		0.000	not-func-entry
+CombatExpireCancelCallOffset	0xf2a148		0.000	not-func-entry
+CombatExpireCancelReturnOffset	0xf2a14c		0.000	not-func-entry
+CombatHealEffectReturnOffset	0xf20df0		0.000	not-func-entry
+CombatHealProjectileReturnOffset	0xf2b374		0.000	not-func-entry
+CombatHealAreaReturnOffset	0xf319a4		0.000	not-func-entry
+ReplayJsonSetterOffset	0xc8de8c	0xda1f90	0.735	str
+ReplayManagerGetterOffset	0xc8c5b8	0xda0658	0.800	prop0
+LibgStringFromUtf8Offset	0x138a800	0x153de30	1.000	prop0
+NativeReplayRunnerOffset	0xc87ecc		0.000	not-func-entry
+ReplayBattleControllerLifecycleOffset	0xc87620		0.000	func-unmatched
+ReplayBattleControllerFullUpdateOffset	0xc88bbc		0.000	func-unmatched
+ReplayBattleControllerClockOffset	0xc890bc	0xd9c278	0.955	str
+ReplayBattleControllerAlternateUpdateOffset	0xc899e0		0.000	not-func-entry
+ReplayClockGlobalPauseGuardOffset	0xcb6694	0xdcda40	0.960	propb0
+GameAppGetterOffset	0x755818		0.000	func-unmatched
+GameAppPauseGuardOffset	0x75c628	0x7c99ac	0.800	prop0
+GameAppPendingEventSetterOffset	0x75a6dc	0x7c79d8	0.710	str
+GameStateLoadOffset	0x1061b1c		0.000	func-unmatched
+GameStateStepOffset	0x10620a4	0x11d3174	0.781	prop0
+GameStateTickOffset	0x1062bc0	0x11d32f0	1.000	prop0
+GameStateContextAOffset	0x80031c	0x878c00	0.945	prop0
+GameStateContextBOffset	0xeaf1c8	0xff253c	0.800	propb0
+GameStateNewOffset	0x17e4b20		0.000	not-func-entry
+GameStateDeleteOffset	0x17e4b50		0.000	not-func-entry
+GameStateConstructorOffset	0x1060ba8	0x11d1e68	0.879	str
+GameStateSetupOffset	0x1060f84	0x11d225c	0.986	mnhash
+GameStateDestroyOffset	0x10610b0	0x11d2388	0.968	str
+GameStateBaseDestroyOffset	0x988844	0x9fe0b0	1.000	mnhash
+JsonParseOffset	0x121a648	0x139f838	1.000	mnhash
+LogicCommandParseOffset	0xd2fe78		0.000	func-unmatched
+LogicCommandAppendOffset	0xd2eef0	0xe5443c	1.000	mnhash
+LogicCommandQueueConstructorOffset	0xd2eddc	0xe54328	1.000	mnhash
+LogicCommandQueueDestroyOffset	0xd2ee40	0xe5438c	1.000	mnhash
+StateSnapshotOffset	0xad9a50	0xbb3ac4	0.982	mnhash
+StateSnapshotDeleteOffset	0x105e8bc		0.000	func-unmatched
+ByteStreamResetReadOffset	0x121220c	0x1397568	1.000	prop0
+ByteStreamFlipReadOffset	0x121221c	0x1397578	1.000	const
+ByteStreamResetChecksumOffset	0x12141bc	0x1399518	1.000	prop0
+GameStateDeserializeHeaderOffset	0x10634c0	0x11d45c8	0.971	mnhash
+GameStateDeserializeBodyOffset	0x106379c	0x11d4b14	0.974	mnhash
+CardSelectionBuildOffset	0xe2d1bc	0xf671a0	1.000	const
+JsonMemberFindOffset	0xd0e100	0xc40d68	1.000	prop0
+LogicDataByGlobalIdOffset	0xdd1340	0xefe42c	0.967	prop0
+LocationTileMapEnsureOffset	0x857608	0x8ae750	1.000	mnhash
+LocationTileMapLookupOffset	0xdf8508	0xf2edec	1.000	prop0
+EglSwapBuffersGotOffset	0x18e9d88		0.000	not-func-entry
+TranslatedSha256InitializerCallOffset	0xc8ece0		0.000	not-func-entry
+GameStateContextRootSlotOffset	0x19ad878		0.000	not-func-entry
+BuffAssetVtableOffset	0x1882500		0.000	not-func-entry
+BuffAssetClassNameGetterOffset	0xd961f4		0.000	not-func-entry
+LogicDataTypeGetterOffset	0xdc2560	0xeeee10	1.000	prop0
+ProjectileVtableOffset	0x189cc28		0.000	not-func-entry
+ProjectileKindGetterOffset	0xf27a58		0.000	not-func-entry
+CharacterVtableOffset	0x189c4e8		0.000	not-func-entry
+ChampionControllerVtableOffset	0x189e4e8		0.000	not-func-entry
+ChampionActionDataVtableOffset	0x188cb28		0.000	not-func-entry
+CharacterAbilityDataVtableOffset	0x18823f0		0.000	not-func-entry
+CaptureCharacterActionDataVtableOffset	0x188c848		0.000	not-func-entry
+CaptureCharacterRuntimeVtableOffset	0x189e2d8		0.000	not-func-entry
+ThresholdRelocationActionDataVtableOffset	0x188ef18		0.000	not-func-entry
+ThresholdRelocationRuntimeVtableOffset	0x189f6f0		0.000	not-func-entry
+PeriodicAttackModifierActionDataVtableOffset	0x188eac8		0.000	not-func-entry
+PeriodicAttackModifierRuntimeVtableOffset	0x189f3d8		0.000	not-func-entry
+GameAppTouchOffset	0x13d0be0	0x156f790	0.960	mnhash
+AttackComponentVtableOffset	0x18a1dd0		0.000	not-func-entry
+MovementComponentVtableOffset	0x18a1f38		0.000	not-func-entry
+BuffComponentVtableOffset	0x18a1d58		0.000	not-func-entry
+AttackComponentTypeGetterOffset	0xf5c878		0.000	not-func-entry
+MovementComponentTypeGetterOffset	0xf6939c		0.000	not-func-entry
+BuffComponentTypeGetterOffset	0xf59aac		0.000	not-func-entry
+ActionDispatchOffset	0xf23110	0x10809c0	1.000	propb0
+AttackExecuteOffset	0xf5f100	0x10bcddc	0.833	propb0
+TargetSetOffset	0xf5c894	0x10ba8e0	0.928	prop0
+BuffAddedOffset	0xf5a2d4	0x10b820c	1.000	mnhash
+MovementScaleOffset	0xf5b3c8	0x10b9300	1.000	propb0
+AttackScaleOffset	0xf5b4ac	0x10b93e4	1.000	prop0
+EffectiveMovementSpeedOffset	0xf1d004	0x10796f4	0.975	mnhash
+MovementDeltaOffset	0xf68808	0x10c6560	0.967	mnhash
+AttackStartReturnOffset	0xf61a7c		0.000	not-func-entry
+ClassicChargeActionReturnOffset	0xf68958		0.000	not-func-entry
+PrimaryAttackReturnOffset	0xf61d10		0.000	not-func-entry
+AdditionalAttackReturnOffset	0xf61e34		0.000	not-func-entry
+AttackScaleReturnOffset	0xf62030		0.000	not-func-entry
+EffectiveSpeedEffectReturnOffset	0xf1d218		0.000	not-func-entry
+MovementTickScaleReturnOffset	0xf66290		0.000	not-func-entry
+DeployScaleReturnOffset	0xf1abc0		0.000	not-func-entry
+ResourceWholeDeltaOffset	0xf3ba4c	0x1098b8c	0.970	mnhash
+ResourceFixedDeltaOffset	0xf3b3d4	0x1098510	0.970	mnhash
+PeriodicResourceCallOffset	0xf1acd0		0.000	not-func-entry
+PeriodicResourceReturnOffset	0xf1acd4		0.000	not-func-entry
+DeathOwnerResourceCallOffset	0xf63714		0.000	not-func-entry
+DeathOwnerResourceReturnOffset	0xf63718		0.000	not-func-entry
+DeathOpponentResourceCallOffset	0xf63830		0.000	not-func-entry
+DeathOpponentResourceReturnOffset	0xf63834		0.000	not-func-entry
+AreaEffectObjectVtableOffset	0x189c2e8		0.000	not-func-entry
+AreaEffectObjectFactoryOffset	0xf2384c	0x1080fa4	0.985	mnhash
+AreaEffectObjectTickOffset	0xf143a8		0.000	func-unmatched
+CharacterSpawnHelperOffset	0xf19314		0.000	func-unmatched
+SpawnAttachHelperCallOffset	0xf18ff0		0.000	not-func-entry
+SpawnAttachHelperReturnOffset	0xf18ff4		0.000	not-func-entry
+AreaDamageEligibleOffset	0xf1cb90		0.000	not-func-entry
+AreaDamageEligibleBodyOffset	0xf1cba0	0x1079130	0.810	propb1
+TowerTargetSetOffset	0xf5c894	0x10ba8e0	0.928	prop0
+ActionSpawnToLocationExecuteOffset	0xe7b864	0xfb7e64	0.837	prop0
+ActionSpawnToLocationStaticVtableOffset	0x1894588		0.000	not-func-entry
+ActionSpawnMode1ChildCreateOffset	0xf2ffb8	0x108d838	0.992	mnhash
+ActionSpawnMode1ChildCreateReturnOffset	0xf24bb0		0.000	not-func-entry
+PendingObjectAddOffset	0xf25928	0x10830f4	1.000	prop0
+ActionWaitUpdateOffset	0xf587c4	0x10b6110	0.954	const
+ActionWaitDispatchCallOffset	0xf5881c		0.000	not-func-entry
+ActionWaitDispatchReturnOffset	0xf58820		0.000	not-func-entry
+ActionWaitStaticVtableOffset	0x1894fb0		0.000	not-func-entry
+ActionWaitRuntimeVtableOffset	0x18a1a40		0.000	not-func-entry
+ChangeGameObjectDataVtableOffset	0x188cc98		0.000	not-func-entry
+ChangeGameObjectDataExecuteOffset	0xe58638	0xf93844	0.985	mnhash
+ChangeMutationCallOffset	0xe58678		0.000	not-func-entry
+ExecuteOffset	0xf609dc	0x10be63c	0.937	mnhash
+ExecuteCallerReturnOffset	0xf61bf0		0.000	not-func-entry
+DaggerInitOffset	0xf43f10	0x10a1270	1.000	const
+DaggerTickOffset	0xf43f3c	0x10a129c	0.994	mnhash
+DaggerRuntimeVtableOffset	0x189e0c8		0.000	not-func-entry
+DaggerStaticVtableOffset	0x188c3f8		0.000	not-func-entry
+ChefInitOffset	0xf47e08	0x10a5378	1.000	const
+ChefTickOffset	0xf47e3c	0x10a53ac	0.992	mnhash
+ChefRuntimeVtableOffset	0x189e738		0.000	not-func-entry
+ChefStaticVtableOffset	0x188cf78		0.000	not-func-entry
+BuffApplyOffset	0xf5a2d4	0x10b820c	1.000	mnhash
+BuffApplyOnlyCallOffset	0xf59ea8		0.000	not-func-entry
+BuffRemoveOffset	0xf5a578	0x10b84b0	0.996	mnhash
+BuffRemoveOnlyCallOffset	0xf59304		0.000	not-func-entry

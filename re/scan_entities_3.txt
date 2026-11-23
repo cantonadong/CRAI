@@ -1,0 +1,5 @@
+﻿ent=0x76385274f800 vt=0x4b18840 kind=13 side=0 pos=(9000,3000) card=-1 lvl=13
+ent=0x76386c31e400 vt=0x4b18840 kind=13 side=1 pos=(9000,29000) card=-1 lvl=16
+ent=0x76386c33e280 vt=0x4b17bb8 kind=13 side=0 pos=(3500,6500) card=-1 lvl=13
+ent=0x76386c33f900 vt=0x4b17bb8 kind=13 side=1 pos=(3500,25500) card=-1 lvl=16
+ent=0x76386c341c00 vt=0x4b17bb8 kind=13 side=1 pos=(14500,25500) card=-1 lvl=16

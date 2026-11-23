@@ -1,0 +1,3 @@
+﻿a=0x76386e694410 b=0x76386e7c9060 roster=0x4eb64ce5f056640d
+king[0] side=0 hp=-1/-1
+king[1] side=0 hp=-1/-1

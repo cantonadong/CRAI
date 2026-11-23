@@ -1,0 +1,62 @@
+{
+  "_comment": "FirstLight_CR 离线引擎 probe 的核心地址，从 15.535.13 移植到 16.635.1。偏移相对 libg 基址。status: ok=已确认；check=证据较强但仍需反编译核对；todo=未解决。详细推导见 docs/re_notes.md 的'FirstLight 地址移植'。",
+  "libg_sha256": "0B580222E5A3502CF153BB5E6297EC32D2B154B605B777C74873DD75722E4EAA",
+  "functions": {
+    "ReplayJsonSetter":                     {"old": "0xc8de8c",  "new": "0xda1f90",  "status": "ok",    "evidence": "同样的两条错误字符串"},
+    "ReplayManagerGetter":                  {"old": "0xc8c5b8",  "new": "0xda0658",  "status": "ok",    "evidence": "指令相似度 1.00"},
+    "LibgStringFromUtf8":                   {"old": "0x138a800", "new": "0x153de30", "status": "ok"},
+    "NativeReplayRunner":                   {"old": "0xc87ecc",  "new": "0xd9ae04",  "status": "check", "evidence": "窗口搜索第一；调用 GameStateLoad，与旧版结构一致"},
+    "ReplayBattleControllerLifecycle":      {"old": "0xc87620",  "new": "0xd9a2cc",  "status": "ok",    "evidence": "唯一含 'cannot find battle object' 的同类函数；调用 GameStateLoad"},
+    "ReplayBattleControllerFullUpdate":     {"old": "0xc88bbc",  "new": "0xd9bba0",  "status": "check", "evidence": "调用点投票 1/1，相似度 0.85"},
+    "ReplayBattleControllerClock":          {"old": "0xc890bc",  "new": "0xd9c278",  "status": "ok"},
+    "ReplayBattleControllerAlternateUpdate":{"old": "0xc899e0",  "new": "0xd9cc24",  "status": "check", "evidence": "窗口搜索相似度 1.00，调用点投票 1/2"},
+    "ReplayClockGlobalPauseGuard":          {"old": "0xcb6694",  "new": "0xdcda40",  "status": "ok"},
+    "GameAppGetter":                        {"old": "0x755818",  "new": "0x7c2808",  "status": "ok",    "evidence": "调用点投票 271/277；新版不再懒创建，直接返回全局 0x1b4b720"},
+    "GameAppPauseGuard":                    {"old": "0x75c628",  "new": "0x7c99ac",  "status": "ok"},
+    "GameAppPendingEventSetter":            {"old": "0x75a6dc",  "new": "0x7c79d8",  "status": "check", "evidence": "调用点投票 7/7，相似度 0.59；GameApp 字段 +0x1b8/+0x1bc 需核对"},
+    "GameAppTouch":                         {"old": "0x13d0be0", "new": "0x156f790", "status": "ok"},
+    "GameStateLoad":                        {"old": "0x1061b1c", "new": "0x11d2dc4", "status": "ok",    "evidence": "反编译确认。16 版把 JSON 解析挪到新辅助对象 0x12d90ec（operator new 0x28），返回值变为 bool；字段 +0x218→+0x220、+0x24→+0x20"},
+    "GameStateLoadParseHelper":             {"old": null,        "new": "0x12d90ec", "status": "ok",    "evidence": "16 版新增，含 'cannot find cmd array' 和 'cannot find battle object'"},
+    "GameStateStep":                        {"old": "0x10620a4", "new": "0x11d3174", "status": "check", "evidence": "调用点投票 7/7，相似度 0.69"},
+    "GameStateTick":                        {"old": "0x1062bc0", "new": "0x11d32f0", "status": "ok"},
+    "GameStateContextA":                    {"old": "0x80031c",  "new": "0x878c00",  "status": "ok"},
+    "GameStateContextB":                    {"old": "0xeaf1c8",  "new": "0xff253c",  "status": "ok"},
+    "GameStateNew":                         {"old": "0x17e4b20", "new": "0x198db50", "status": "ok",    "evidence": "PLT _Znwm"},
+    "GameStateDelete":                      {"old": "0x17e4b50", "new": "0x198db60", "status": "ok",    "evidence": "PLT _ZdlPv"},
+    "GameStateConstructor":                 {"old": "0x1060ba8", "new": "0x11d1e68", "status": "check", "evidence": "调用点投票 5/5，相似度 0.84"},
+    "GameStateSetup":                       {"old": "0x1060f84", "new": "0x11d225c", "status": "ok"},
+    "GameStateDestroy":                     {"old": "0x10610b0", "new": "0x11d2388", "status": "ok"},
+    "GameStateBaseDestroy":                 {"old": "0x988844",  "new": "0x9fe0b0",  "status": "ok"},
+    "JsonParse":                            {"old": "0x121a648", "new": "0x139f838", "status": "ok"},
+    "JsonMemberFind":                       {"old": "0xd0e100",  "new": "0xc40d68",  "status": "ok"},
+    "LogicCommandParse":                    {"old": "0xd2fe78",  "new": "0xe553e4",  "status": "ok",    "evidence": "辅助函数 0x12d90ec 中紧接在 LogicCommandAppend 之前的调用"},
+    "LogicCommandAppend":                   {"old": "0xd2eef0",  "new": "0xe5443c",  "status": "ok"},
+    "LogicCommandQueueConstructor":         {"old": "0xd2eddc",  "new": "0xe54328",  "status": "ok"},
+    "LogicCommandQueueDestroy":             {"old": "0xd2ee40",  "new": "0xe5438c",  "status": "ok"},
+    "StateSnapshot":                        {"old": "0xad9a50",  "new": "0xbb3ac4",  "status": "ok"},
+    "StateSnapshotDelete":                  {"old": "0x105e8bc", "new": "0x11ccee8", "status": "ok",    "evidence": "调用点投票 1/1，相似度 1.00"},
+    "ByteStreamResetRead":                  {"old": "0x121220c", "new": "0x1397568", "status": "ok"},
+    "ByteStreamFlipRead":                   {"old": "0x121221c", "new": "0x1397578", "status": "ok"},
+    "ByteStreamResetChecksum":              {"old": "0x12141bc", "new": "0x1399518", "status": "ok"},
+    "GameStateDeserializeHeader":           {"old": "0x10634c0", "new": "0x11d45c8", "status": "ok"},
+    "GameStateDeserializeBody":             {"old": "0x106379c", "new": "0x11d4b14", "status": "ok"},
+    "CardSelectionBuild":                   {"old": "0xe2d1bc",  "new": "0xf671a0",  "status": "ok"},
+    "LogicDataByGlobalId":                  {"old": "0xdd1340",  "new": "0xefe42c",  "status": "ok"},
+    "LogicDataTypeGetter":                  {"old": "0xdc2560",  "new": "0xeeee10",  "status": "ok"},
+    "LocationTileMapEnsure":                {"old": "0x857608",  "new": "0x8ae750",  "status": "ok"},
+    "LocationTileMapLookup":                {"old": "0xdf8508",  "new": "0xf2edec",  "status": "ok"}
+  },
+  "data": {
+    "EglSwapBuffersGot":                    {"old": "0x18e9d88", "new": "0x1a9d6b0", "status": "ok",    "evidence": "GOT 符号 eglSwapBuffers"},
+    "GameStateContextRootSlot":             {"old": "0x19ad878", "new": "0x1b61d00", "status": "ok",    "evidence": "数据引用投票 10/10"}
+  },
+  "patches": {
+    "TranslatedSha256InitializerCall":      {"old": "0xc8ece0",  "new": null,        "status": "todo",  "evidence": "SHA256 自检函数新版在 0x7e70a0，但没有直接 BL 调用，0x742370 一带有代码跳进函数中间，疑似新增混淆。原版游戏在 LDPlayer(houdini) 上能跑，可能不需要这个补丁；只有 MuMu(libndk_translation) 才需要"}
+  },
+  "struct_offsets_to_verify": [
+    "GameStateManager: +0x218→+0x220（某对象指针），+0x24→+0x20（状态）",
+    "GameApp +0x1b8 / +0x1bc（pending event）",
+    "ReplayBattleController +0x30 / +0x44 / +0x74 / +0x18c",
+    "probe/*_layout.h 里的全部实体、组件布局"
+  ]
+}

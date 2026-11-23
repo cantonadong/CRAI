@@ -1,0 +1,1532 @@
+{
+  "029YYV9VJ92R": {
+    "file": "replay0001.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "9CCY28Y82",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:46:44.975Z"
+  },
+  "00JYYRG0GU9P": {
+    "file": "replay0002.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "VRCRYJRRP",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:46:46.975Z"
+  },
+  "098PYV9G0YQC": {
+    "file": "replay0003.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "JCU9J2J0U",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:46:50.186Z"
+  },
+  "020YYQRGV2UJ": {
+    "file": "replay0004.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "CRCRUC0Y0",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:46:52.404Z"
+  },
+  "00JYYRG0PP2C": {
+    "file": "replay0005.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "P2928PY8U",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:46:55.422Z"
+  },
+  "092PL0YJQ90J": {
+    "file": "replay0011.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "ULLY8RVVR",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:48:31.290Z"
+  },
+  "00JYYRG08CCY": {
+    "file": "replay0012.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "PCG229PC",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:48:50.198Z"
+  },
+  "020YYQRG8JJC": {
+    "file": "replay0013.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "PP2C9LVG",
+    "team_crowns": "3",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:48:52.547Z"
+  },
+  "00JYYRQVGLUR": {
+    "file": "replay0014.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "200GJLL208",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:48:54.750Z"
+  },
+  "00PYQG82UCRR": {
+    "file": "replay0015.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "U9PPVP0L0",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:48:56.965Z"
+  },
+  "00JYYRQVYJQQ": {
+    "file": "replay0016.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "UG0J8RGU9",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:48:59.602Z"
+  },
+  "00JYYRQVPLVG": {
+    "file": "replay0017.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "CRCRUC0Y0",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:02.202Z"
+  },
+  "00JYYRQV8UJC": {
+    "file": "replay0018.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "PCCVVPQV",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:04.321Z"
+  },
+  "08QY0UVG2JUU": {
+    "file": "replay0019.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "JQLVLPYUQ",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:06.930Z"
+  },
+  "00JYYRQV0VCY": {
+    "file": "replay0020.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "JRGRYPYVQ",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:09.095Z"
+  },
+  "00QYYR22GRGG": {
+    "file": "replay0021.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "80PJPGYG9",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:11.054Z"
+  },
+  "08QY0UVQCLCP": {
+    "file": "replay0022.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "88299RC9Y",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:17.031Z"
+  },
+  "00JYYRQURUCG": {
+    "file": "replay0023.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "UG0J8RGU9",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:19.705Z"
+  },
+  "00JYYRQUG9UV": {
+    "file": "replay0024.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "JU9QGVVRU",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:23.870Z"
+  },
+  "00UYYGYUQYQP": {
+    "file": "replay0025.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "VJ0RQVYJP",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:26.715Z"
+  },
+  "009YQRC8LJQ0": {
+    "file": "replay0026.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "290UQY8C",
+    "team_crowns": "3",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:29.498Z"
+  },
+  "08QY0UVQP9GR": {
+    "file": "replay0027.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "P0QC800CR",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:32.798Z"
+  },
+  "02YYYVVL0VQU": {
+    "file": "replay0028.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "UG0LVQCJ9",
+    "team_crowns": "3",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:35.971Z"
+  },
+  "09YPPUPY8LQV": {
+    "file": "replay0029.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "JR029VYG9",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles",
+    "saved_at": "2026-11-20T09:49:38.592Z"
+  },
+  "098PYV9GV92G": {
+    "file": "replay0030.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "JCU9J2J0U",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:56:47.731Z"
+  },
+  "020YYQRRVPVU": {
+    "file": "replay0031.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "PP2C9LVG",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:56:52.998Z"
+  },
+  "00RYYQRRCCPV": {
+    "file": "replay0032.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "LPUUR0YC",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:56:58.042Z"
+  },
+  "02RYPJU98UPU": {
+    "file": "replay0033.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "80PJPGYG9",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:03.225Z"
+  },
+  "08CY0CU8GLQC": {
+    "file": "replay0034.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "VUYV2G89Y",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:07.856Z"
+  },
+  "00LYYRY998JU": {
+    "file": "replay0035.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "VRCRYJRRP",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:13.436Z"
+  },
+  "09U9CUQ2CYPU": {
+    "file": "replay0036.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "200GJLL208",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:19.545Z"
+  },
+  "02RYPJU8RJCP": {
+    "file": "replay0037.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "PCCVVPQV",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:23.859Z"
+  },
+  "08VPYVGCQJYQ": {
+    "file": "replay0038.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "VPGCJLUQQ",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:28.728Z"
+  },
+  "098PYV9QC0QP": {
+    "file": "replay0039.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "200QLJUYL",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:33.160Z"
+  },
+  "080Y9RPYYUVG": {
+    "file": "replay0040.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "P2928PY8U",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:37.955Z"
+  },
+  "00RYYQRGR9QP": {
+    "file": "replay0041.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "UCL0UCPYC",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:43.650Z"
+  },
+  "02RYPJU820R0": {
+    "file": "replay0042.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "RQ9Q8YQJR",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:49.523Z"
+  },
+  "02RYPJJCYC28": {
+    "file": "replay0043.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "LCCPQC2Y8",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:54.794Z"
+  },
+  "08UPYVVGVQCQ": {
+    "file": "replay0044.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "VC9PYQ028",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:57:59.722Z"
+  },
+  "09G9CU80UJY9": {
+    "file": "replay0045.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "Y92PGLG08",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:04.884Z"
+  },
+  "02RYPJJJVVPP": {
+    "file": "replay0046.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "UUU8GPC",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:09.472Z"
+  },
+  "020YYQG92LRQ": {
+    "file": "replay0047.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "9LVP2RCLL",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:14.312Z"
+  },
+  "088Y9P9VJQCG": {
+    "file": "replay0048.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "LJRUJR0Y0",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:18.547Z"
+  },
+  "08GY0J9RVULG": {
+    "file": "replay0049.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "VG92J82UG",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:23.146Z"
+  },
+  "09U9CUYC9RJ2": {
+    "file": "replay0050.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "CRUGCURRP",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:28.366Z"
+  },
+  "08VPYVQL9L2J": {
+    "file": "replay0051.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "V28PYR282",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:33.281Z"
+  },
+  "098PYV889GVU": {
+    "file": "replay0052.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "UQJ9LUP",
+    "team_crowns": "2",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:37.464Z"
+  },
+  "02RYPJJRLVYQ": {
+    "file": "replay0053.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "CVUGGQQCU",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:43.322Z"
+  },
+  "080Y9R8UGJU8": {
+    "file": "replay0054.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "LYYRJ82U0",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:49.600Z"
+  },
+  "02RYPJJR9JVJ": {
+    "file": "replay0055.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "9J28QRLJC",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-20T10:58:54.638Z"
+  },
+  "00QYYGVR8L9C": {
+    "file": "replay0056.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "JLJVRV8V2",
+    "team_crowns": "2",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles/history",
+    "saved_at": "2026-11-20T10:58:56.502Z"
+  },
+  "02RYPJJGQYG8": {
+    "file": "replay0057.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "VQYVQ00GC",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles/history",
+    "saved_at": "2026-11-20T10:59:11.051Z"
+  },
+  "09R9CCU9PLCC": {
+    "file": "replay0058.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "JL28QL2Y",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/PCG229PC/battles/history",
+    "saved_at": "2026-11-20T10:59:15.698Z"
+  },
+  "02RYPJJG9JUC": {
+    "file": "replay0059.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "9JCJQQYPV",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/PCG229PC/battles/history",
+    "saved_at": "2026-11-20T10:59:20.415Z"
+  },
+  "00JYYRLL8LL9": {
+    "file": "replay0060.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "V2GRPU28Y",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T10:59:27.701Z"
+  },
+  "00RYYQG0UGLU": {
+    "file": "replay0061.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "RQ9Q8YQJR",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T10:59:32.660Z"
+  },
+  "00JYYRLYCGQ9": {
+    "file": "replay0062.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "222RRP8J9L",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T10:59:43.252Z"
+  },
+  "00JYYRLYRQUU": {
+    "file": "replay0063.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "VQYVQ00GC",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:00:31.015Z"
+  },
+  "00JYYRLYQ8VY": {
+    "file": "replay0064.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "QL0QRQJCV",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:00:35.235Z"
+  },
+  "08GY0J9QLQC9": {
+    "file": "replay0065.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "LP0GCVP0U",
+    "team_crowns": "1",
+    "opponent_crowns": "3",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:00:39.683Z"
+  },
+  "02JYPJP29CYC": {
+    "file": "replay0066.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "UPRL0CQL0",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:00:46.374Z"
+  },
+  "08UPYVVY9Q8G": {
+    "file": "replay0067.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "VLJL9UL00",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:00:51.744Z"
+  },
+  "09R9CCU8PCUQ": {
+    "file": "replay0068.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "CRUQGQ8RY",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:00:57.100Z"
+  },
+  "00JYYRLPCPCL": {
+    "file": "replay0069.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "PG88V9GV",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:03.085Z"
+  },
+  "00JYYRLPR9JP": {
+    "file": "replay0070.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "LPGLJQRYU",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:07.523Z"
+  },
+  "09LPPUPJ8GU9": {
+    "file": "replay0071.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "VQ0JVLJ8U",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:12.547Z"
+  },
+  "029YYV89QQCL": {
+    "file": "replay0072.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "89VUYU282",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:17.388Z"
+  },
+  "00JYYRLP89Y8": {
+    "file": "replay0073.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "2GP2LJUGU",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:21.800Z"
+  },
+  "00JYYRL9VJ99": {
+    "file": "replay0074.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "CQCVJULU2",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:26.281Z"
+  },
+  "00JYYRL9CJ2P": {
+    "file": "replay0075.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "VLJL9UL00",
+    "team_crowns": "3",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:31.060Z"
+  },
+  "02LYPGRYGCRJ": {
+    "file": "replay0076.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "C89L0002L",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:36.677Z"
+  },
+  "080Y9R8R8P2Q": {
+    "file": "replay0077.json",
+    "team_tags": "GQYLLP9R0",
+    "opponent_tags": "LYYRJ82U0",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/GQYLLP9R0/battles/history",
+    "saved_at": "2026-11-20T11:01:42.433Z"
+  },
+  "08QY0V2VP8GL": {
+    "file": "replay0078.json",
+    "team_tags": "RUCPP8U09",
+    "opponent_tags": "202CG0LQ",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/RUCPP8U09/battles",
+    "saved_at": "2026-11-22T04:07:18.516Z"
+  },
+  "00VYYGU9C29R": {
+    "file": "replay0079.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "RP0L2Y8C9",
+    "team_crowns": "2",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-22T04:09:23.383Z"
+  },
+  "02RYPC8RGRJJ": {
+    "file": "replay0080.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "RCL0QVP8V",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-22T04:09:31.325Z"
+  },
+  "08UPL0Y88PGR": {
+    "file": "replay0081.json",
+    "team_tags": "PCG229PC",
+    "opponent_tags": "C2GVV8V2L",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/PCG229PC/battles",
+    "saved_at": "2026-11-22T04:09:39.104Z"
+  },
+  "000YQQGYCRG2": {
+    "file": "replay0082.json",
+    "team_tags": "CL0R8QLR9",
+    "opponent_tags": "CRV0JC89L",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/CL0R8QLR9/battles",
+    "saved_at": "2026-11-22T04:10:12.200Z"
+  },
+  "02PYL098GCVV": {
+    "file": "replay0083.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "RUQ0JU2P",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:10:29.083Z"
+  },
+  "08LY99Y0YVRU": {
+    "file": "replay0084.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "URJUYCRQV",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:10:36.566Z"
+  },
+  "02RYPC8RU90Y": {
+    "file": "replay0085.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "C0PUVCGVR",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:10:43.523Z"
+  },
+  "08LY99Y09RC8": {
+    "file": "replay0086.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "202JYC8QL2",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:10:51.205Z"
+  },
+  "08LY99PVU20Q": {
+    "file": "replay0087.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "JCVJ29Q0Y",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:10:59.752Z"
+  },
+  "00UYYGJQ8CJY": {
+    "file": "replay0088.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "Y2GY98YL",
+    "team_crowns": "3",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:11:07.548Z"
+  },
+  "08LY99PVR2G8": {
+    "file": "replay0089.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "C2GVV8V2L",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:11:14.373Z"
+  },
+  "08LY992R82RV": {
+    "file": "replay0090.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "VQYVQ00GC",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:11:21.551Z"
+  },
+  "00LYYRL9PRJJ": {
+    "file": "replay0091.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "VY9GPG8J",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:11:28.046Z"
+  },
+  "08LY992G8CC9": {
+    "file": "replay0092.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "VYU0ULUYV",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:11:34.823Z"
+  },
+  "02VY9GJ08VQR": {
+    "file": "replay0093.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "89J0RULYV",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:11:42.324Z"
+  },
+  "08CY0CV2QLQC": {
+    "file": "replay0094.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "290RVQY2V",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:11:50.803Z"
+  },
+  "088Y9PLPUV0R": {
+    "file": "replay0095.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "VQVC22Y8L",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:11:57.418Z"
+  },
+  "099PPU0JVV00": {
+    "file": "replay0096.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "YGRCG22YC",
+    "team_crowns": "3",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:13:56.390Z"
+  },
+  "08UPL02CRJLV": {
+    "file": "replay0097.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "C2GVV8V2L",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:14:05.043Z"
+  },
+  "08LY992QPLC2": {
+    "file": "replay0098.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "8PPYYPQY9",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:14:13.246Z"
+  },
+  "08LY992Q8GG8": {
+    "file": "replay0099.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "92J8989",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:14:21.517Z"
+  },
+  "08YY9PV9RUQV": {
+    "file": "replay0100.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "RPPYVRRJR",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:14:30.162Z"
+  },
+  "00LYYRL2J2LG": {
+    "file": "replay0101.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "CQUL0UV0",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:14:37.368Z"
+  },
+  "002YQRPGQ899": {
+    "file": "replay0102.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "J9UVU2J2",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:14:45.069Z"
+  },
+  "00CYYGYQYUYL": {
+    "file": "replay0103.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "8VVGP20YV",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:15:10.877Z"
+  },
+  "02LYPGU0P0QL": {
+    "file": "replay0104.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "8CQVYY9PG",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:15:40.395Z"
+  },
+  "008YQGPQQY88": {
+    "file": "replay0105.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "UR2JVVYRG",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:15:54.129Z"
+  },
+  "002YQRPQURPJ": {
+    "file": "replay0106.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "8U0QCJ2",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:17:04.142Z"
+  },
+  "090PL0UPJRU8": {
+    "file": "replay0107.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "YQGP0GRU",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:17:13.133Z"
+  },
+  "08LY992YC8PQ": {
+    "file": "replay0108.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "C00CRGG2P",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles",
+    "saved_at": "2026-11-22T04:17:21.084Z"
+  },
+  "08LY992PVP0G": {
+    "file": "replay0109.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "RUQ0JU2P",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:17:33.179Z"
+  },
+  "08LY992PCLQP": {
+    "file": "replay0110.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "UUU2UPGRL",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:17:45.380Z"
+  },
+  "02JYPJLLJVPV": {
+    "file": "replay0111.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "CLQ9YV028",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:17:52.571Z"
+  },
+  "00LYYRYVQQVY": {
+    "file": "replay0112.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "GRL8QL9P8",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:18:00.502Z"
+  },
+  "08LY992PLLCL": {
+    "file": "replay0113.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "Y92PGLG08",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:18:06.986Z"
+  },
+  "00PYQG8V2Q08": {
+    "file": "replay0114.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "2LQ2YP98",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:18:46.337Z"
+  },
+  "09R9CU0PGQG2": {
+    "file": "replay0115.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "JL28QL2Y",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:18:54.065Z"
+  },
+  "08LY992P220V": {
+    "file": "replay0116.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "CJ09U0VUG",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:19:13.831Z"
+  },
+  "08LY9929VRVG": {
+    "file": "replay0117.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "J9JVCGG2J",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:19:49.960Z"
+  },
+  "089Y9PGGVU29": {
+    "file": "replay0118.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "UGVJP9VVV",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:19:58.646Z"
+  },
+  "08LY9929C99V": {
+    "file": "replay0119.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "8PPYYPQY9",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:20:04.549Z"
+  },
+  "020YYQJPQVL2": {
+    "file": "replay0120.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "28UCVJYC0",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:20:12.614Z"
+  },
+  "08JY0UVJVG00": {
+    "file": "replay0121.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "JRYJ89Q08",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:20:20.229Z"
+  },
+  "02RYPJUCUVVU": {
+    "file": "replay0122.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "PCG229PC",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:20:27.340Z"
+  },
+  "09R9CU09JLRV": {
+    "file": "replay0123.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "JL28QL2Y",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:20:34.416Z"
+  },
+  "08LY992980QJ": {
+    "file": "replay0124.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "VR8YGR8YL",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:20:41.911Z"
+  },
+  "08LY9928VU8V": {
+    "file": "replay0125.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "UQQCLV989",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:20:49.919Z"
+  },
+  "09U9CUQRYV2R": {
+    "file": "replay0126.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "JU9QGVVRU",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:20:58.267Z"
+  },
+  "08LY9928JC9R": {
+    "file": "replay0127.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "2GR2QQ9P",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:21:06.782Z"
+  },
+  "08LY9928GCLU": {
+    "file": "replay0128.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "20P9J8PV",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:21:14.218Z"
+  },
+  "099PPU0L2C8U": {
+    "file": "replay0129.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "20PRCUJ0LR",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:21:28.819Z"
+  },
+  "08LY9928PQU8": {
+    "file": "replay0130.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "U9UG9UUV0",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:21:50.351Z"
+  },
+  "08LY99288GJQ": {
+    "file": "replay0131.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "CQCVJULU2",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:22:01.501Z"
+  },
+  "020YYQJ8VLQ2": {
+    "file": "replay0132.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "28UCVJYC0",
+    "team_crowns": "2",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:22:08.713Z"
+  },
+  "02YYL008822Y": {
+    "file": "replay0133.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "LPYU289RR",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:22:34.224Z"
+  },
+  "08LY9922JUYJ": {
+    "file": "replay0134.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "VL2JYY0PR",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:22:49.974Z"
+  },
+  "02PYYVV8G82L": {
+    "file": "replay0135.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "2YL9L80CG",
+    "team_crowns": "3",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:29:56.695Z"
+  },
+  "08LY9922GQPG": {
+    "file": "replay0136.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "C00CRGG2P",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:30:04.697Z"
+  },
+  "09C9CV20YCGJ": {
+    "file": "replay0137.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "CQQQ2VUPY",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:30:14.559Z"
+  },
+  "08LY99229VVG": {
+    "file": "replay0138.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "20929LUQG8",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:30:24.815Z"
+  },
+  "08LY99228JRL": {
+    "file": "replay0139.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "22LYR2UYC",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:31:33.914Z"
+  },
+  "08LY99222908": {
+    "file": "replay0140.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "2L80VQPJV",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:31:43.274Z"
+  },
+  "08PY9P8LCRG0": {
+    "file": "replay0141.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "LJLGCRVRL",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:31:52.307Z"
+  },
+  "08LY9920CLU2": {
+    "file": "replay0142.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "2CLV2RP0",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:32:00.229Z"
+  },
+  "08LY9920RUR8": {
+    "file": "replay0143.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "VLJL9UL00",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:32:07.252Z"
+  },
+  "09G9CU9J9882": {
+    "file": "replay0144.json",
+    "team_tags": "20JL0JCJG8",
+    "opponent_tags": "U2YUL8CV0",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/20JL0JCJG8/battles/history",
+    "saved_at": "2026-11-22T04:32:15.107Z"
+  },
+  "088Y9PRCCYG8": {
+    "file": "replay0145.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "2CYR8LCUP",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:58:07.045Z"
+  },
+  "02PYL098QPYU": {
+    "file": "replay0146.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "RUQ0JU2P",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:58:13.494Z"
+  },
+  "00RYYG088222": {
+    "file": "replay0147.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "RQ9Q8YQJR",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:58:22.012Z"
+  },
+  "088Y9PRC9V8G": {
+    "file": "replay0148.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "PCCVVPQV",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:58:30.066Z"
+  },
+  "002YQRG99VGR": {
+    "file": "replay0149.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "YCLJ9QCC9",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:58:38.558Z"
+  },
+  "09C9CVPGL2VG": {
+    "file": "replay0150.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "VL2QUL202",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:58:48.480Z"
+  },
+  "088Y9PRJRJ98": {
+    "file": "replay0151.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "QU9QVC80U",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:58:56.669Z"
+  },
+  "082Y9RQ22V8L": {
+    "file": "replay0152.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "208UV0QCY9",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:59:04.224Z"
+  },
+  "088Y9PRJQPVL": {
+    "file": "replay0153.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "2LUY2Q98",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:59:12.974Z"
+  },
+  "088Y9PRJYL2J": {
+    "file": "replay0154.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "20JU8288LC",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:59:20.996Z"
+  },
+  "088Y9PRJP9PQ": {
+    "file": "replay0155.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "8J8JG0G0",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:59:27.568Z"
+  },
+  "08JY0V9YLCPG": {
+    "file": "replay0156.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "20RCGR090J",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:59:36.609Z"
+  },
+  "08CY0U8YQGUG": {
+    "file": "replay0157.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "VLUVRR89V",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:59:44.715Z"
+  },
+  "088Y9PRRVC9G": {
+    "file": "replay0158.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "VY9GPG8J",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T04:59:53.058Z"
+  },
+  "088Y9PRRUGUV": {
+    "file": "replay0159.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "UVY2YGJUU",
+    "team_crowns": "0",
+    "opponent_crowns": "3",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:00:03.706Z"
+  },
+  "09U9CUC208JY": {
+    "file": "replay0160.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "JU9QGVVRU",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:00:11.497Z"
+  },
+  "02VY9GVPU092": {
+    "file": "replay0161.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "UVR29GC89",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:00:19.516Z"
+  },
+  "02UY9QJP9YLY": {
+    "file": "replay0162.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "VL099CU9G",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:00:27.624Z"
+  },
+  "08UPL0Y0LRQ8": {
+    "file": "replay0163.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "C2GVV8V2L",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:00:36.012Z"
+  },
+  "00UYYGJYQ998": {
+    "file": "replay0164.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "Y2GY98YL",
+    "team_crowns": "3",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:00:44.360Z"
+  },
+  "029YYVGPPVLR": {
+    "file": "replay0165.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "U9R0LG02",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:00:51.900Z"
+  },
+  "008YQGG0J8LL": {
+    "file": "replay0166.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "JYG0G0Y9P",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:01:00.090Z"
+  },
+  "028YL0GCLC8J": {
+    "file": "replay0167.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "2LUY2Q98",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:01:24.877Z"
+  },
+  "088Y9PRR2PUG": {
+    "file": "replay0168.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "JU9QGVVRU",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:03:17.828Z"
+  },
+  "088Y9PRGVJVV": {
+    "file": "replay0169.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "UVY2YGJUU",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:03:26.011Z"
+  },
+  "088Y9PRGUCPG": {
+    "file": "replay0170.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "20PRP9Q9",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:03:32.437Z"
+  },
+  "088Y9PRGCGCR": {
+    "file": "replay0171.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "222RRP8J9L",
+    "team_crowns": "0",
+    "opponent_crowns": "1",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:03:39.068Z"
+  },
+  "088Y9PRGRU8C": {
+    "file": "replay0172.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "2LG8QP000",
+    "team_crowns": "1",
+    "opponent_crowns": "2",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:03:46.695Z"
+  },
+  "02PYL08VY2GR": {
+    "file": "replay0173.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "RUQ0JU2P",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:03:53.633Z"
+  },
+  "09YPPUGQCQQY": {
+    "file": "replay0174.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "JUC2UJC",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles",
+    "saved_at": "2026-11-22T05:04:01.806Z"
+  },
+  "088Y9PRGPVC8": {
+    "file": "replay0175.json",
+    "team_tags": "Y8VG0QY08",
+    "opponent_tags": "2RRGRRQ0R",
+    "team_crowns": "1",
+    "opponent_crowns": "0",
+    "page": "/player/Y8VG0QY08/battles/history",
+    "saved_at": "2026-11-22T05:04:17.904Z"
+  }
+}

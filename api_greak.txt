@@ -1,0 +1,296 @@
+// ==UserScript==
+// @name         RoyaleAPI 回放自动下载
+// @namespace    https://royaleapi.com/
+// @version      3.2
+// @description  在 RoyaleAPI 玩家对战记录页，自动把该玩家所有对局的 replay 数据保存到本地文件夹（replay0001.json 起自增，随滚动自动下载，自动跳过已下载；识别 200+success=false 的限流响应）
+// @match        https://royaleapi.com/player/*
+// @grant        none
+// @run-at       document-idle
+// ==/UserScript==
+
+(function () {
+  'use strict';
+
+  const REPLAY_PATH = '/data/replay';
+  const PREFIX = 'replay';
+  const PAD = 4;
+  const MANIFEST = '_manifest.json';   // 记录 replay tag -> 文件名，用于去重
+  let delayMs = 5000;                  // 每个请求的基础间隔（遇到限流会自动加大）
+  const MAX_DELAY_MS = 30000;
+  const BACKOFF_START_MS = 3 * 60000;  // 第一次限流暂停 3 分钟，之后翻倍
+  const BACKOFF_MAX_MS = 30 * 60000;
+  const MAX_RETRY = 3;                 // 非限流失败最多重试次数
+  let backoffMs = BACKOFF_START_MS;
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const AUTO_RUN = true;               // 已授权时打开页面就自动下载
+
+  // ---------- IndexedDB：保存文件夹句柄 ----------
+  const idb = (mode, fn) => new Promise((res, rej) => {
+    const open = indexedDB.open('cr-replay-dl', 1);
+    open.onupgradeneeded = () => open.result.createObjectStore('kv');
+    open.onerror = () => rej(open.error);
+    open.onsuccess = () => {
+      const tx = open.result.transaction('kv', mode);
+      const req = fn(tx.objectStore('kv'));
+      tx.oncomplete = () => res(req && req.result);
+      tx.onerror = () => rej(tx.error);
+    };
+  });
+  const getHandle = () => idb('readonly', (s) => s.get('dir'));
+  const setHandle = (h) => idb('readwrite', (s) => s.put(h, 'dir'));
+
+  // ---------- 面板 ----------
+  const panel = document.createElement('div');
+  panel.style.cssText = 'position:fixed;right:16px;bottom:16px;z-index:2147483647;width:360px;max-width:calc(100vw - 32px);background:#1e1f24;color:#eee;font:12px/1.5 system-ui,sans-serif;border-radius:8px;padding:10px 12px;box-shadow:0 4px 18px rgba(0,0,0,.4)';
+  const title = document.createElement('b');
+  title.textContent = '回放下载';
+  const log = document.createElement('div');
+  log.style.cssText = 'max-height:160px;overflow:auto;margin:6px 0;font:11px monospace;color:#9fe39f;white-space:pre-wrap';
+  const btnRow = document.createElement('div');
+  btnRow.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap';
+  const mkBtn = (txt, fn) => {
+    const b = document.createElement('button');
+    b.textContent = txt;
+    b.style.cssText = 'background:#f2711c;color:#fff;border:0;border-radius:4px;padding:4px 10px;cursor:pointer';
+    b.onclick = fn;
+    btnRow.appendChild(b);
+    return b;
+  };
+  const say = (msg) => { log.textContent += msg + '\n'; log.scrollTop = log.scrollHeight; };
+  panel.append(title, log, btnRow);
+  document.body.appendChild(panel);
+
+  // ---------- 文件夹 ----------
+  async function ensureDir(interactive) {
+    let dir = await getHandle().catch(() => null);
+    if (dir) {
+      const opts = { mode: 'readwrite' };
+      let perm = await dir.queryPermission(opts);
+      if (perm !== 'granted' && interactive) perm = await dir.requestPermission(opts);
+      if (perm === 'granted') return dir;
+      if (!interactive) return null;
+    }
+    if (!interactive) return null;
+    dir = await window.showDirectoryPicker({ id: 'cr-replay', mode: 'readwrite' });
+    await setHandle(dir);
+    return dir;
+  }
+
+  async function readManifest(dir) {
+    try {
+      const f = await (await dir.getFileHandle(MANIFEST)).getFile();
+      return JSON.parse(await f.text());
+    } catch { return {}; }
+  }
+
+  async function writeFile(dir, name, text) {
+    const fh = await dir.getFileHandle(name, { create: true });
+    const w = await fh.createWritable();
+    await w.write(text);
+    await w.close();
+  }
+
+  // 扫描文件夹里已有的 replayNNNN.*，取最大序号
+  async function maxIndex(dir) {
+    const re = new RegExp('^' + PREFIX + '(\\d+)\\.', 'i');
+    let max = 0;
+    for await (const name of dir.keys()) {
+      const m = name.match(re);
+      if (m) max = Math.max(max, parseInt(m[1], 10));
+    }
+    return max;
+  }
+
+  function replayUrl(d) {
+    const p = new URLSearchParams({
+      tag: d.replay,
+      team_tags: d.teamTags || '',
+      opponent_tags: d.opponentTags || '',
+      team_crowns: d.teamCrowns || '',
+      opponent_crowns: d.opponentCrowns || '',
+      referrer_path: location.origin + location.pathname,
+    });
+    return location.origin + REPLAY_PATH + '?' + p.toString();
+  }
+
+  // 把 success=false 时返回的 html 转成纯文本，用来判断原因
+  function htmlText(html) {
+    if (!html) return '';
+    const div = document.createElement('div');
+    div.innerHTML = html;
+    return (div.textContent || '').replace(/\s+/g, ' ').trim();
+  }
+
+  // ---------- 主流程：跟随滚动的下载队列 ----------
+  let dir = null, manifest = {}, idx = 0, ready = false, working = false, paused = false;
+  const queue = [];
+  const failed = [];          // 非限流失败的对局，可点「重试失败」再跑
+  const tries = {};           // tag -> 失败次数
+  const seen = new Set();     // 本次页面已入队/已处理的 tag
+  let stat = { ok: 0, skip: 0, fail: 0 };
+
+  function enqueue(btn) {
+    const tag = btn.dataset.replay;
+    if (!tag || seen.has(tag)) return;
+    seen.add(tag);
+    if (manifest[tag]) { stat.skip++; status(); return; }
+    queue.push({ dataset: { ...btn.dataset } });
+    pump();
+  }
+
+  // 按钮滚进视口（提前 300px）就入队
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (!e.isIntersecting) continue;
+      io.unobserve(e.target);
+      enqueue(e.target);
+    }
+  }, { rootMargin: '300px 0px' });
+
+  const watched = new WeakSet();
+  function watchButtons(root = document) {
+    root.querySelectorAll && root.querySelectorAll('.replay_button[data-replay]').forEach((b) => {
+      if (watched.has(b)) return;
+      watched.add(b);
+      io.observe(b);
+    });
+  }
+
+  // 页面滚动加载出新对局时，自动接管新按钮
+  new MutationObserver((muts) => {
+    for (const m of muts) for (const n of m.addedNodes) {
+      if (n.nodeType !== 1) continue;
+      if (n.matches && n.matches('.replay_button[data-replay]')) { if (!watched.has(n)) { watched.add(n); io.observe(n); } }
+      else watchButtons(n);
+    }
+  }).observe(document.body, { childList: true, subtree: true });
+
+  const statusLine = document.createElement('div');
+  statusLine.style.cssText = 'color:#ccc;margin-top:4px';
+  panel.insertBefore(statusLine, btnRow);
+  function status() {
+    statusLine.textContent = `${paused ? '[已暂停] ' : ''}已下载 ${stat.ok} · 跳过 ${stat.skip} · 失败 ${failed.length} · 排队 ${queue.length}`;
+  }
+
+  async function countdown(ms, why) {
+    say(`⏸ ${why}，暂停 ${Math.round(ms / 1000)} 秒；之后每场间隔 ${(delayMs / 1000).toFixed(1)} 秒`);
+    const end = Date.now() + ms;
+    while (Date.now() < end) {
+      statusLine.textContent = `限流暂停中，${Math.ceil((end - Date.now()) / 1000)} 秒后继续 · 已下载 ${stat.ok} · 排队 ${queue.length}`;
+      await sleep(1000);
+    }
+    status();
+  }
+
+  async function rateLimited(d, retryAfterSec, why) {
+    queue.unshift({ dataset: d });   // 放回队首，稍后重试
+    const wait = retryAfterSec > 0 ? retryAfterSec * 1000 : backoffMs;
+    backoffMs = Math.min(backoffMs * 2, BACKOFF_MAX_MS);
+    delayMs = Math.min(Math.round(delayMs * 1.5), MAX_DELAY_MS);
+    await countdown(wait, why);
+  }
+
+  async function pump() {
+    if (!ready || working || paused) return;
+    working = true;
+    while (queue.length && !paused) {
+      const d = queue.shift().dataset;
+      status();
+      if (manifest[d.replay]) { stat.skip++; continue; }
+      try {
+        const res = await fetch(replayUrl(d), { credentials: 'include' });
+        if (res.status === 429) {
+          await rateLimited(d, parseInt(res.headers.get('Retry-After'), 10), 'HTTP 429 限流');
+          continue;
+        }
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const text = await res.text();
+        const json = JSON.parse(text);
+        if (json.success === false) {
+          const msg = htmlText(json.html);
+          // RoyaleAPI 限流时返回 HTTP 200 + success:false + "You are over your rate limit"
+          if (/rate limit/i.test(msg)) {
+            await rateLimited(d, 0, '服务器提示 over your rate limit');
+            continue;
+          }
+          throw new Error('success=false ' + (msg ? '「' + msg.slice(0, 80) + '」' : ''));
+        }
+        const name = PREFIX + String(++idx).padStart(PAD, '0') + '.json';
+        await writeFile(dir, name, text);
+        manifest[d.replay] = {
+          file: name, team_tags: d.teamTags, opponent_tags: d.opponentTags,
+          team_crowns: d.teamCrowns, opponent_crowns: d.opponentCrowns,
+          page: location.pathname, saved_at: new Date().toISOString(),
+        };
+        await writeFile(dir, MANIFEST, JSON.stringify(manifest, null, 2));
+        stat.ok++;
+        backoffMs = BACKOFF_START_MS;   // 成功后重置退避
+        say(`✔ ${name}  (${d.replay} ${d.teamCrowns}-${d.opponentCrowns})`);
+      } catch (e) {
+        tries[d.replay] = (tries[d.replay] || 0) + 1;
+        if (!failed.some((f) => f.replay === d.replay)) failed.push(d);
+        say(`✘ ${d.replay}: ${e.message}（第 ${tries[d.replay]} 次）`);
+      }
+      status();
+      await sleep(delayMs + Math.random() * 2000);   // 加随机抖动
+    }
+    working = false;
+    status();
+  }
+
+  async function start(interactive) {
+    try {
+      const h = await ensureDir(interactive);
+      if (!h) { say('点「开始」授权文件夹（选 D:\\Dev\\CRAI\\replay）'); return; }
+      dir = h;
+      manifest = await readManifest(dir);
+      idx = await maxIndex(dir);
+      ready = true;
+      say(`文件夹：${dir.name}，已有 ${Object.keys(manifest).length} 条记录，下一个编号 ${idx + 1}`);
+      say('滚动页面即可，滚到的对局会自动下载');
+      // 授权前已滚到、在排队的：已下载过的剔除
+      for (let i = queue.length - 1; i >= 0; i--) {
+        if (manifest[queue[i].dataset.replay]) { queue.splice(i, 1); stat.skip++; }
+      }
+      status();
+      pump();
+    } catch (e) {
+      say('出错：' + e.message);
+    }
+  }
+
+  mkBtn('开始', () => { if (!ready) start(true); });
+  const pauseBtn = mkBtn('暂停', () => {
+    paused = !paused;
+    pauseBtn.textContent = paused ? '继续' : '暂停';
+    say(paused ? '⏸ 已手动暂停（当前请求完成后停下）' : '▶ 继续');
+    status();
+    if (!paused) pump();
+  });
+  mkBtn('重试失败', () => {
+    const list = failed.splice(0).filter((d) => (tries[d.replay] || 0) < MAX_RETRY && !manifest[d.replay]);
+    if (!list.length) { say('没有可重试的失败项'); status(); return; }
+    queue.push(...list.map((d) => ({ dataset: d })));
+    say(`↻ 重新排队 ${list.length} 场`);
+    status();
+    pump();
+  });
+  mkBtn('更换文件夹', async () => {
+    try {
+      const h = await window.showDirectoryPicker({ id: 'cr-replay', mode: 'readwrite' });
+      await setHandle(h);
+      ready = false;
+      say('已切换到：' + h.name);
+      start(false);
+    } catch {}
+  });
+  mkBtn('隐藏', () => (panel.style.display = 'none'));
+
+  if (!window.showDirectoryPicker) {
+    say('当前浏览器不支持 File System Access API，请用 Chrome / Edge');
+  } else {
+    watchButtons();
+    status();
+    if (AUTO_RUN) start(false);
+  }
+})();
