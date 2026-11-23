@@ -2,25 +2,26 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-tools/
-refs/
-apk/
-data/raw/
-*.so
-
-# 大文件 / 本地产物（不进 git）
-data/
-models/
-build/
+.cache/
 .claude/
-re/**/*.gbf
-re/**/*.gpr
-re/**/*.prp
-re/**/*.jsonl
-re/**/*.png
+
+# 大文件目录：放在 HuggingFace（见 README），只忽略项目根下的同名目录
+/data/
+/models/
+/build/
+/tools/
+/refs/
+/apk/
+/re/**/*.gbf
+/re/**/*.gpr
+/re/**/*.prp
+/re/**/*.jsonl
+/re/**/*.png
+
+# 运行时产物
+*.so
 *.log
 *.pid
 *.err
 *.bak
 *.lock
-.cache/
